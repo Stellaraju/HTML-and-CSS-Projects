@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>AOLCC</title>
+</head>
+<body>
+    <h1>Academy of Learning Carrier College </h1>
+    <p><strong>From learning to working!
+       Your guide to success!</strong></p>
+<main>
+    <h3>History</h3>
+    <p>For more than 30 years Academy of Learning has been recognized as a training leader, offering a wide range of
+training programs that is relied on by students, employers and government agencies.</P>
+
+<h6>Orientation</h6>
+<img src="https:file:///Users/rajumichael/Desktop/Deaktop/tree.jpeg></img>
+</main>
+<footer>
+<p> AOLCC 2024-2025</p>
+</footer>
+</body>
+</html>
