@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;  /* Font family for body text */
+    background-color: #f4f4f4;  /* Light background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;  /* Green background */
+    color: white;  /* White text */
+    text-align: center;  /* Centered text */
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow for sections */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling the input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;  /* Input fields will take up 100% of the form's width */
+    padding: 10px;  /* Padding inside the input fields */
+    margin-bottom: 15px;  /* Margin between inputs */
+    border: 1px solid #ccc;  /* Light grey border */
+    border-radius: 4px;  /* Rounded corners for inputs */
+    font-family: Arial, sans-serif;  /* Font family for input text */
+    font-size: 16px;  /* Font size for input text */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    width: 100%;  /* Button width 100% */
+    padding: 10px;
+    background-color: #4CAF50;  /* Green background */
+    color: white;  /* White text */
+    border: none;  /* No border */
+    border-radius: 4px;  /* Rounded corners */
+    cursor: pointer;  /* Pointer cursor on hover */
+    font-size: 16px;  /* Font size for submit button */
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #45a049;  /* Darker green on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;  /* Green background */
+    color: white;  /* White text */
+}
