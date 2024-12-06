@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Bootstrap Website</title>
+
+    <!-- Bootstrap CSS (via CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Optional: You can include a custom CSS file below, if needed -->
+    <!-- <link href="styles.css" rel="stylesheet"> -->
+</head>
+<body>
+
+    <!-- Navbar (Bootstrap Component) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">STELLA Bootstrap Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to My Website</h1>
+            <p class="lead">This is my West Edmonton Mall Bootstrap website to get started!</p>
+            <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>West Edmonton Mall (WEM) is a large shopping mall in Edmonton, Alberta, Canada, that is owned, managed, and operated by Triple Five Group. It is the second most visited mall in Canada, after the Toronto Eaton Centre in Toronto, followed by Metropolis at Metrotown in Burnaby, and the 14th largest in the world (along with The Dubai Mall) by gross leasable area.It is the second largest shopping mall, by square footage, in North America behind the Mall of America in Bloomington, Minnesota.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="file:///Users/rajumichael/Documents/GitHub/HTML-and-CSS-Projects/bootstrap4_project/Img/W1.jpeg" class="img-fluid rounded" alt="Placeholder Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Major Attractions</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="file:///Users/rajumichael/Documents/GitHub/HTML-and-CSS-Projects/bootstrap4_project/Img/W2.jpeg" class="card-img-top" alt="Service 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Galaxy Land</h5>
+                            <p class="card-text">Galaxyland was originally known as "Fantasyland"; however, during a court battle with the Walt Disney Company, West Edmonton Mall changed the park's name to Galaxyland in July 1995 after completing major renovations. It undertook a complete redesign from the original theme, old Victorian fantasy, to a galactic space theme.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="file:///Users/rajumichael/Documents/GitHub/HTML-and-CSS-Projects/bootstrap4_project/Img/W3.jpeg" class="card-img-top" alt="Service 2">
+                        <div class="card-body">
+                            <h5 class="card-title">World Water Park</h5>
+                            <p class="card-text">The World Waterpark is the world's 4th-largest indoor waterpark, built in 1985, with a size of 20,903 square metres (5.165 acres). The park has the world's largest indoor wave pool. The highest slides in the park are the Twister and Cyclone, which are each 25.3 metres (83 ft) high.
+
+                                The wave pool has six wave bays, each with two panels with a total of 1.1 megawatts (1,500 hp), generating waves up to two metres high.
+                                
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="file:///Users/rajumichael/Documents/GitHub/HTML-and-CSS-Projects/bootstrap4_project/Img/W4.jpeg" class="card-img-top" alt="Service 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Ice Palace</h5>
+                            <p class="card-text">Ice Palace is a scaled-down version of a National Hockey League (NHL) regulation-sized ice rink in the centre of the mall. The Edmonton Oilers occasionally practised at the Ice Palace during the 1980s. The Oilers' contract for using the rink has since expired. The rink is used for various hockey and other sporting tournaments. In 2015, the Ice Palace was renamed Mayfield Toyota Ice Palace after the mall sold the naming rights to a local auto dealership.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 My Website | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS (via CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
