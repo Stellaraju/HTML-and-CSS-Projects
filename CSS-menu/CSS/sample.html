@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image with CSS Effects</title>
+    <style>
+        /* Centering the image using flexbox */
+        .image-container {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center;     /* Centers vertically */
+            height: 100vh;           /* Make container take full viewport height */
+            background-color: #f0f0f0; /* Optional: light background */
+        }
+
+        img {
+            max-width: 100%;   /* Ensures the image is responsive */
+            height: auto;      /* Keeps the aspect ratio */
+            border-radius: 15px; /* Rounded edges */
+            filter: sepia(60%) contrast(120%) blur(2px); /* Apply filter */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container to center the image -->
+    <div class="image-container">
+        <img src="file:///Users/rajumichael/Documents/GitHub/HTML-and-CSS-Projects/bootstrap4_project/Img/M1.jpeg" alt="Example Image">
+    </div>
+
+</body>
+</html>
